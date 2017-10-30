@@ -10,7 +10,10 @@
 package a1;
 
 public class Starter {
-	public static void main(String[] args) {
+	/*
+     * Main method, creates an instance of Game class 
+    */
+    public static void main(String[] args) {
 		@SuppressWarnings("unused")
 		Game g = new Game();
 	}
