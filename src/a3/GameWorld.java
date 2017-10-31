@@ -440,12 +440,6 @@ public class GameWorld implements IObservable{
 		for(int i = 0; i < array.length - 1; i++){
 			for(int j = i+1; j < array.length; j++){
 				if(((ICollider)array[i]).collidesWith((ICollider)array[j])){
-//					if(((ICollider)array[i]) instanceof Cat){
-//						((Animal)array[i]).handleCollision((ICollider)array[j], this);
-//					}
-//					if(((ICollider)array[i]) instanceof Dog){
-//						((Animal)array[i]).handleCollision((ICollider)array[j], this);
-//					}
 					((Animal)array[i]).handleCollision((ICollider)array[i], (ICollider)array[j], this);
 				}
 			}
