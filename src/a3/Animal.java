@@ -117,7 +117,7 @@ public abstract class Animal extends GameObject implements IMovable{
 		boolean prevCollision = false;
 		
 //		/*
-		//FIRST TRY - MOST PRACTICAL VERSION
+		//FIRST TRY - BEST CASE
 		if(this.getType() == "Cat"){
 			if(obj2 instanceof Cat){
 				//System.out.println("Cat with Cat");
